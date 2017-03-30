@@ -1,98 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-* {
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+body, html {
     margin: 0;
     padding: 0;
-    transition: 500ms;
-    font-family: 'Open Sans';
+    height: 100%;
+    width: 100%;
+    font-family: 'Fjalla One';
 }
 .page {
+    width: 100%;
+    height: 100%;
+    background: rgb(30, 30, 30);
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
 }
-.header {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    box-shadow: 0px 10px 28px 0px rgba(0,0,0,0.75);
-    z-index: 1;
+.navbar {
+    width: calc(100% - 20px);
+    height: 60px;
+    background: rgb(51, 51, 51);
+    margin: 10px;
+    font-size: 20px;
 }
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url("http://wallpaper-gallery.net/images/new-york-night-wallpaper/new-york-night-wallpaper-27.jpg");
-    background-size: cover;
+.links {
+    display: inline-block;
+    color: rgb(173, 173, 173);
+    margin: 15px 20px;
 }
-.content {
-    background-color: rgba(255, 147, 0, 0.9);
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    padding-top: 100px;
-    text-align: center;
+.active {
     color: white;
+    border-bottom: 2px solid white;
 }
-.content h1{
-    display: block;
-    margin-top: 40vh;
-}
-.menuIcon {
-    z-index: 2;
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 30px;
-}
-.menuIcon div {
-    background-color: rgb(255, 147, 0);
-    height: 6px;
-    display: block;
-    margin: 6px 0;
-    border-radius: 3px;
-}
-.first {
-    width: 50px;
-}
-.second {
-    width: 24px;
-}
-.third {
-    width: 37px;
-}
-.menuIcon:hover {
-    cursor: pointer;
-}
-.menuIcon:hover div {
-    width: 50px;
-}
-.menu {
-    z-index: 3;
-    position: absolute;
-    top: 0;
-    left: -250px;
-    height: 100%;
-    width: 250px;
-    background-color: rgba(141, 104, 54, 0.78);
-}
-.btn {
-    border: 2px solid white;
-    height: 40px;
-    width: 200px;
-    border-radius: 20px;
-    display: block;
-    padding-top: 6px;
-    margin: 0 auto 0 auto;
-}
-.btn:hover {
-    background-color: white;
-    color: rgb(255, 147, 0);
+@media (min-width: 500px) {
 }
