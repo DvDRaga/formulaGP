@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Test Site</title>
+    <meta charset=utf-8 />
+    <title>F1 Results</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Hello World!!!</h1>
-    <p>This is a paragraph.</p>
+    <div id='testa'>
+        <div id='logo'><img src='https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg'></div>
+        <div class='btn' id='fp1'>FP1</div>
+        <div class='btn' id='fp2'>FP2</div>
+        <div class='btn' id='fp3'>FP2</div>
+        <div class='btn' id='qlf'>Q</div>
+        <div class='btn' id='race'>RACE</div>
+    </div>
+    <div id="content">
+        <table id="result"></table>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
 </html>
