@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=utf-8 />
-    <title>F1 Results</title>
+    <meta charset=utf-8/>
+    <title>Prova</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id='testa'>
-        <div id='logo'><img src='https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg'></div>
-        <div class='btn' id='fp1'>FP1</div>
-        <div class='btn' id='fp2'>FP2</div>
-        <div class='btn' id='fp3'>FP2</div>
-        <div class='btn' id='qlf'>Q</div>
-        <div class='btn' id='race'>RACE</div>
+    <div class="page">
+        <div class="header">
+            <div class="menuIcon" href="#">
+                <div class="first"></div>
+                <div class="second"></div>
+                <div class="third"></div>
+            </div>
+        </div>
+        <div class="background"><div class="content">
+            <h1>PROVA DI DESIGN</h1>
+            <div class="btn">Clicca Qui</div>
+        </div></div>
     </div>
-    <div id="content">
-        <table id="result"></table>
+    <div class="menu">
+    
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script>
+        var menuWidth = 250;
+        var menuIcon = menuWidth + 30;
+        $('.menuIcon').on('click', function() {
+            if ($('.menuIcon').css('left') == '30px') {
+                $('.menu').css('left', '0px');
+                $('.menuIcon').css('left', menuIcon + 'px');
+            } else {
+                $('.menu').css('left', '-' + menuWidth+ 'px');
+                $('.menuIcon').css('left', '30px');
+            };
+        });
+    </script>
 </body>
 </html>

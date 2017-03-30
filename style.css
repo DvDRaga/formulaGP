@@ -1,56 +1,98 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: 500ms;
     font-family: 'Open Sans';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
-body {
-    padding: 5px;
-    background-color: #cecece;
-}
-#testa {
-    height: 100px;
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-    font-weight: 700;
-    background-color: #292828;
 }
-#logo {
+.header {
+    width: 100%;
     height: 100px;
-    display: inline-block;
-    float: left;
-    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 10px 28px 0px rgba(0,0,0,0.75);
+    z-index: 1;
 }
-#logo img {
-    height: 60px;
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("http://wallpaper-gallery.net/images/new-york-night-wallpaper/new-york-night-wallpaper-27.jpg");
+    background-size: cover;
+}
+.content {
+    background-color: rgba(255, 147, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    display: block;
+    margin-top: 40vh;
+}
+.menuIcon {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 30px;
+}
+.menuIcon div {
+    background-color: rgb(255, 147, 0);
+    height: 6px;
+    display: block;
+    margin: 6px 0;
+    border-radius: 3px;
+}
+.first {
+    width: 50px;
+}
+.second {
+    width: 24px;
+}
+.third {
+    width: 37px;
+}
+.menuIcon:hover {
+    cursor: pointer;
+}
+.menuIcon:hover div {
+    width: 50px;
+}
+.menu {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    width: 250px;
+    background-color: rgba(141, 104, 54, 0.78);
 }
 .btn {
-    color: white;
-    display: inline-block;
-    padding: 10px;
-    border: 3px solid white;
-    border-radius: 9px;
-    margin: 27px 3px 0px 3px;
-    float: none;
-    width: 47px;
-    text-align: center;
+    border: 2px solid white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    padding-top: 6px;
+    margin: 0 auto 0 auto;
 }
 .btn:hover {
-    border-color: red;
-    color: red;
-    cursor:pointer
-}
-#content {
-    margin-left: -100px;
-}
-table{
-    margin: 0 0 0 0;
-}
-td, th {
-    padding: 0px 7px 0px 7px;
-}
-
-.hide-for-desktop {
-    display: none;
+    background-color: white;
+    color: rgb(255, 147, 0);
 }
