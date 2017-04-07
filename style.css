@@ -33,11 +33,10 @@ html, body {
     background-position: center;
 }
 .layer {
-    height: calc(100vh - 100px);
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background: rgba(200,200,200,0.60);
     text-align: center;
-    padding: 5px;
 }
 .layer div {
     height: 450px;
