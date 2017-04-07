@@ -61,12 +61,4 @@ h1 {
         height: auto;
     }
 }
-@media (max-width: 700px) {
-    .layer div {
-        display: block;
-        margin: 15px auto;
-    }
-    .layer, .content {
-        height: auto;
-    }
-}
+
