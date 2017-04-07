@@ -37,6 +37,7 @@ html, body {
     width: 100vw;
     background: rgba(200,200,200,0.60);
     text-align: center;
+    padding: 5px;
 }
 .layer div {
     height: 450px;
