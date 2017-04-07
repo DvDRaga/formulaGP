@@ -28,7 +28,7 @@ html, body {
     height: calc(100vh - 100px);
     width:100vw;
     display: block;
-    background: url(http://media.eventreport.it/media/directory_img/2012/06/22482248PNZ_0242.JPG);
+    background: url(media/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -57,5 +57,11 @@ h1 {
     .layer div {
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+}
+@media (max-width: 380px) {
+    .layer div {
+        display: block;
+        margin: 15px auto;
     }
 }
