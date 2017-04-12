@@ -64,7 +64,12 @@ html, body {
 .motogp:hover img {
     content: url(media/motogp_b.png);
 }
-
+.f1:hover #f1_data_gara {
+    border: 2px solid rgb(34,34,34);
+}
+.motogp:hover #motogp_data_gara {
+    border: 2px solid rgb(34,34,34);
+}
 /*--- end of test ---*/
 h1 {
     font-weight: 800; 
@@ -77,41 +82,58 @@ h1 {
 .f1 img {
     width: 120px;
     display: block;
-    margin: 35px auto;
+    margin: -22px auto -8px auto;
 }
 .motogp img {
     width: 80px;
     display: block;
-    margin: 33px auto 7px auto;
+    margin: -10px auto 20px auto;
 }
 /*--- f1 table styling ---*/
 .f1_table {
     width: 300px;
     margin: auto;
-    text-align: center;
+    text-align: right;
 }
 .f1_table td {
     width: 50%;
-    padding-top: 10px; 
+    padding-top: 17px;
+    padding-right: 30px;
 }
 .f1_table tr > :first-child {
     text-align: left;
     padding-left: 30px;
+}
+#f1_data_gara {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    white-space: pre;
+    border: 2px solid white;
+    border-radius: 7px;
 }
 /*--- end table styling---*/
 /*--- motogp table styling ---*/
 .motogp_table {
     width: 300px;
     margin: auto;
-    text-align: center;
+    text-align: right;
 }
 .motogp_table td {
     width: 50%;
-    padding-top: 10px; 
+    padding-top: 5px;
+    padding-right: 30px; 
 }
 .motogp_table tr > :first-child {
     text-align: left;
     padding-left: 30px;
+    padding-right: 0;
+}
+#motogp_data_gara {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    white-space: pre;
+    border: 2px solid white;
+    border-radius: 7px;
 }
 /*--- end table styling---*/
 

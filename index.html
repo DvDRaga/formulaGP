@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FormulaGP</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -17,6 +17,9 @@
                 <h1>FORMULA 1</h1>
                 <img src="media/formula1.png" alt="">
                 <table class="f1_table">
+                    <tr>
+                        <th colspan="2" id="f1_data_gara"></th>
+                    </tr>
                     <tr>
                         <td>FP1</td>
                         <td id="f1_fp1">In Corso</td>
@@ -43,6 +46,9 @@
                 <h1>MOTO GP</h1>
                 <img src="media/motogp.png" alt="">
                 <table class="motogp_table">
+                    <tr>
+                        <th colspan="2" id="motogp_data_gara">AUSTRALIA    24 - 26 Mar.</th>
+                    </tr>
                     <tr>
                         <td>FP1</td>
                         <td id="motogp_fp1">In Corso</td>
@@ -75,6 +81,6 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
