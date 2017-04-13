@@ -97,7 +97,7 @@ h1 {
 }
 .f1_table td {
     width: 50%;
-    padding-top: 17px;
+    padding-top: 11px;
     padding-right: 30px;
 }
 .f1_table tr > :first-child {
@@ -111,6 +111,13 @@ h1 {
     border: 2px solid white;
     border-radius: 7px;
 }
+#f1_diretta {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
 /*--- end table styling---*/
 /*--- motogp table styling ---*/
 .motogp_table {
@@ -120,7 +127,7 @@ h1 {
 }
 .motogp_table td {
     width: 50%;
-    padding-top: 17px;
+    padding-top: 11px;
     padding-right: 30px; 
 }
 .motogp_table tr > :first-child {
@@ -134,6 +141,13 @@ h1 {
     white-space: pre;
     border: 2px solid white;
     border-radius: 7px;
+}
+#motogp_diretta {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5px 0 0 0;
 }
 /*--- end table styling---*/
 

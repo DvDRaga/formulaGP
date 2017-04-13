@@ -7,7 +7,8 @@ var f1Gare = [
         fp2: "Ven. 06:00",
         fp3: "Sab. 04:00",
         qualify: "Sab. 07:00",
-        race: "Dom. 07:00"
+        race: "Dom. 07:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "CINA",
         dataGara: new Date(2017, 3, 9),
@@ -16,7 +17,8 @@ var f1Gare = [
         fp2: "Ven. 08:00",
         fp3: "Sab. 06:00",
         qualify: "Sab. 09:00",
-        race: "Dom. 08:00"
+        race: "Dom. 08:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "BAHRAIN",
         dataGara: new Date(2017, 3, 16),
@@ -25,7 +27,8 @@ var f1Gare = [
         fp2: "Ven. 17:00",
         fp3: "Sab. 14:00",
         qualify: "Sab. 17:00",
-        race: "Dom. 17:00"
+        race: "Dom. 17:00",
+        diretta: "DIRETTA"
     }, {
         paese: "RUSSIA",
         dataGara: new Date(2017, 3, 30),
@@ -34,7 +37,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "SPAGNA",
         dataGara: new Date(2017, 4, 14),
@@ -43,7 +47,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "MONACO",
         dataGara: new Date(2017, 4, 28),
@@ -52,7 +57,8 @@ var f1Gare = [
         fp2: "Gio. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIRETTA"
     }, {
         paese: "CANADA",
         dataGara: new Date(2017, 5, 11),
@@ -61,7 +67,8 @@ var f1Gare = [
         fp2: "Ven. 20:00",
         fp3: "Sab. 16:00",
         qualify: "Sab. 19:00",
-        race: "Dom. 20:00"
+        race: "Dom. 20:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "AZERBAIJAN",
         dataGara: new Date(2017, 5, 25),
@@ -70,7 +77,8 @@ var f1Gare = [
         fp2: "Ven. 15:00",
         fp3: "Sab. 12:00",
         qualify: "Sab. 15:00",
-        race: "Dom. 15:00"
+        race: "Dom. 15:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "AUSTRIA",
         dataGara: new Date(2017, 6, 9),
@@ -79,7 +87,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIRETTA"
     }, {
         paese: "G. BRETAGNA",
         dataGara: new Date(2017, 6, 16),
@@ -88,7 +97,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "UNGHERIA",
         dataGara: new Date(2017, 6, 30),
@@ -97,7 +107,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIRETTA"
     }, {
         paese: "BELGIO",
         dataGara: new Date(2017, 7, 27),
@@ -106,7 +117,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "ITALIA",
         dataGara: new Date(2017, 8, 3),
@@ -115,7 +127,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIRETTA"
     }, {
         paese: "SINGAPORE",
         dataGara: new Date(2017, 8, 17),
@@ -124,7 +137,8 @@ var f1Gare = [
         fp2: "Ven. 15:30",
         fp3: "Sab. 12:00",
         qualify: "Sab. 15:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIRETTA"
     }, {
         paese: "MALESIA",
         dataGara: new Date(2017, 9, 1),
@@ -133,7 +147,8 @@ var f1Gare = [
         fp2: "Ven. 09:00",
         fp3: "Sab. 08:00",
         qualify: "Sab. 11:00",
-        race: "Dom. 09:00"
+        race: "Dom. 09:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "GIAPPONE",
         dataGara: new Date(2017, 9, 8),
@@ -142,7 +157,8 @@ var f1Gare = [
         fp2: "Ven. 07:00",
         fp3: "Sab. 05:00",
         qualify: "Sab. 08:00",
-        race: "Dom. 07:00"
+        race: "Dom. 07:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "STATI UNITI",
         dataGara: new Date(2017, 9, 22),
@@ -151,7 +167,8 @@ var f1Gare = [
         fp2: "Ven. 21:00",
         fp3: "Sab. 18:00",
         qualify: "Sab. 21:00",
-        race: "Dom. 21:00"
+        race: "Dom. 21:00",
+        diretta: "DIRETTA"
     }, {
         paese: "MESSICO",
         dataGara: new Date(2017, 9, 29),
@@ -160,7 +177,8 @@ var f1Gare = [
         fp2: "Ven. 21:00",
         fp3: "Sab. 17:00",
         qualify: "Sab. 20:00",
-        race: "Dom. 20:00"
+        race: "Dom. 20:00",
+        diretta: "DIRETTA"
     }, {
         paese: "BRASILE",
         dataGara: new Date(2017, 10, 12),
@@ -169,7 +187,8 @@ var f1Gare = [
         fp2: "Ven. 19:00",
         fp3: "Sab. 16:00",
         qualify: "Sab. 19:00",
-        race: "Dom. 19:00"
+        race: "Dom. 19:00",
+        diretta: "DIFFERITA"
     }, {
         paese: "ABU DHABI",
         dataGara: new Date(2017, 10, 26),
@@ -178,7 +197,8 @@ var f1Gare = [
         fp2: "Ven. 14:00",
         fp3: "Sab. 11:00",
         qualify: "Sab. 14:00",
-        race: "Dom. 14:00"
+        race: "Dom. 14:00",
+        diretta: "DIRETTA"
     }
 ];
 for (i = 0; i < f1Gare.length; i++) {

@@ -26,6 +26,7 @@ var f1Display = function() {
     $('#f1_fp3').text(f1Gare[f1GaraAttuale].fp3);
     $('#f1_qualify').text(f1Gare[f1GaraAttuale].qualify);
     $('#f1_race').text(f1Gare[f1GaraAttuale].race);
+    $('#f1_diretta').text(f1Gare[f1GaraAttuale].diretta);
 };
 var motogpDisplay = function() {
     if (motogpGare[motogpGaraAttuale].dataInizio.getDate() < 10 && motogpGare[motogpGaraAttuale].dataGara.getDate() < 10) {
@@ -42,6 +43,7 @@ var motogpDisplay = function() {
     $('#motogp_fp3').text(motogpGare[motogpGaraAttuale].fp3);
     $('#motogp_qualify').text(motogpGare[motogpGaraAttuale].qualify);
     $('#motogp_race').text(motogpGare[motogpGaraAttuale].race);
+    $('#motogp_diretta').text(motogpGare[motogpGaraAttuale].diretta);
 };
 $(document).ready(f1Display);
 $(document).ready(motogpDisplay);
