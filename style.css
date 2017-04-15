@@ -150,7 +150,9 @@ h1 {
     padding: 5px 0 0 0;
 }
 /*--- end table styling---*/
-
+.hidden {
+    display: none;
+}
 @media (max-height: 610px), (max-width: 760px) {
     .layer div {
         margin: 30px;
