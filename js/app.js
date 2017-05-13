@@ -2,12 +2,12 @@ var ora = new Date();
 var f1GaraAttuale;
 var motogpGaraAttuale;
 for (i = f1Gare.length - 1; i > -1; i--) {
-    if (f1Gare[i].dataGara - ora > -3*24*60*60*1000) {
+    if (f1Gare[i].dataGara - ora > -1.5*24*60*60*1000) {
         f1GaraAttuale = i;
     };
 };
 for (i = motogpGare.length - 1; i > -1; i--) {
-    if (motogpGare[i].dataGara - ora > -3*24*60*60*1000) {
+    if (motogpGare[i].dataGara - ora > -1.5*24*60*60*1000) {
         motogpGaraAttuale = i;
     };
 };
